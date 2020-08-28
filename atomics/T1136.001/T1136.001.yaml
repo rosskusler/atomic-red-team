@@ -88,7 +88,7 @@ atomic_tests:
       Remove-LocalUser -Name "#{username}" -ErrorAction Ignore
     name: powershell
     elevation_required: true
-- name: Create a new user in Linux with `root` UID and GID.
+- name: Create a new user in Linux with root UID and GID.
   auto_generated_guid: a1040a30-d28b-4eda-bd99-bb2861a4616c
   description: |
     Creates a new user in Linux and adds the user to the `root` group. This technique was used by adversaries during the Butter attack campaign.
